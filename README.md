@@ -15,7 +15,7 @@ cd src
 g++ main.cpp
 a.exe
 ```
-
+the save file is stored near the .exe file and has the default name `save.hasan`
 ## Usage
 When running the program, the user is presented with a menu where they can choose to add new goods, update old goods, generate reports, and exit the system. When entering new goods, the user is asked to input the name, price, brand, and the number of items in stock. When updating old goods, the user is asked to input the new name, price, and number of items in stock. The system will find the old good with the same name and brand and update its information. The system can also generate a report showing all the goods in the store, sorted by name, price, brand, and the number of items in stock.
 
